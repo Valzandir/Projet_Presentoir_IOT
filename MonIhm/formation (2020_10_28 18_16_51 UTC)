@@ -1,0 +1,7 @@
+sqlite3 formation.db
+
+create table LyceeGeneralTechno (id integer,nom varchar(10), sigle varchar(10), videoLGT varchar(10), prospectus varchar(10), codeLGT varchar(10), PRIMARY KEY(id));
+create table LyceeProfessionnel (id integer,nom varchar(10), sigle varchar(10), videoLP varchar(10), prospectus varchar(10), codeLP varchar(10), PRIMARY KEY(id));
+create table Alternance (id integer,nom varchar(10), sigle varchar(10), videoAlternance varchar(10), prospectus varchar(10), codeAlternance varchar(10), PRIMARY KEY(id));
+create table EnseignementSuperieur (id integer,nom varchar(10), sigle varchar(10), videoEnseignementSuperieur varchar(10), prospectus varchar(10), codeEnseignementSuperieur varchar(10),PRIMARY KEY(id));
+ 
